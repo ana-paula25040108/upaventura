@@ -1,0 +1,42 @@
+body {
+  background-color: #007bff; /* Azul claro */
+  font-family: Arial, sans-serif;
+}
+
+header {
+  text-align: center;
+  color: #fff;
+}
+
+main {
+  background-color: #fff;
+  border: 2px solid gold;
+  padding: 20px;
+  margin: 20px auto;
+  width: 80%;
+}
+
+/* Estilos para as bexigas (usar um gerador de gradiente ou biblioteca CSS para criar o efeito) */
+.bexiga {
+  width: 20px;
+  height: 20px;
+  background: linear-gradient(to bottom, #f00, #ff0, #0ff);
+  border-radius: 50%;
+  position: absolute;
+  animation: float 3s infinite ease-in-out;
+}
+
+/* Animação das bexigas */
+@keyframes float {
+  0% {
+    transform: translateY(-10px);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+/* Adicione mais classes para estilizar outros elementos, como títulos, parágrafos, etc. */
